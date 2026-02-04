@@ -24,10 +24,21 @@ main{
     max-width: 65ch;
 }
 h1{
+    width: 100%;
     align-self: flex-start;
+    border-bottom: solid 2px cornflowerblue;
+    margin-bottom: 12px;
 }
 ul{
     align-self: flex-start;
+}
+div{
+    display: grid;
+    
+}
+img{
+    width: 100%;
+    object-fit: contain;
 }
 p{
     text-indent: 50px;
